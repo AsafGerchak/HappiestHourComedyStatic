@@ -1,0 +1,65 @@
+/*
+==========================================
+Typography and Variable
+==========================================
+*/
+
+$font: #C2C7EA;
+
+body {
+	color: $font;
+	font-size: 20px;
+}
+
+h1, h2, h5 {
+	// font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3, h4, p {
+	// font-family: 'Lora', serif;
+	// font-family: 'Montserrat', sans-serif;
+		// font-family: 'Cabin', sans-serif;
+		font-family: 'Hind', sans-serif;
+
+}
+
+h3, h4, p {
+	font-weight: 400;
+}
+
+h2, h5 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 500;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	line-height: 1.1;
+}
+
+h2 {
+	font-size: 1.1em;
+	letter-spacing: 1.3px;
+	line-height: 1.3;
+}
+
+// h3 {
+// 	font-size: 28px;
+// 	letter-spacing: 2px;
+// 	line-height: 1.2;
+// }
+
+// h5 {
+// 	font-size: 17px;
+// 	letter-spacing: 0.6px;
+// }
+
+p {
+	letter-spacing: 0.8px;
+	line-height: 1.5;
+}
+
