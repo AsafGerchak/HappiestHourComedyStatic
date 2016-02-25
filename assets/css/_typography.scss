@@ -63,3 +63,17 @@ p {
 	line-height: 1.5;
 }
 
+
+
+
+/* =================================
+====================================
+Media Queries */
+
+@media (max-width: 600px) {
+
+	body {
+		font-size: 17px;
+	}
+
+} // @media (min-width: 600px)

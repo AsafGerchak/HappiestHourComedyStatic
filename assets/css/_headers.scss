@@ -26,7 +26,7 @@ header {
 		// OR INSTEAD THIS:
 
 		// min-width: 100%;
-		min-height: 100%;
+		min-height: 125%;
 		position: absolute;
 		z-index: -1;
 		top: 50%;
@@ -39,7 +39,6 @@ header {
 .headerCover {
 	width: 100%;
 	height: 100%;
-	padding: 70px 0;
 	background: rgba(80, 80, 80, 0.15);
 } // .headerCover
 
@@ -76,9 +75,13 @@ header {
 	max-width: 700px;
 	margin: 0 auto;
 
-	h2:first-of-type {
-		margin-bottom: 5px;
-	}
+	h2 {
+		font-weight: 400;
+
+		&:first-of-type {
+			margin-bottom: 5px;
+		}
+	} // h2
 
 	span {
 		margin: 0 30px;
@@ -139,4 +142,30 @@ Media Queries */
 		}
 	} // header
 
+	.headerInfo {
+		top: 50%;
+	} // .headerInfo
+
+	.showDetails {
+
+		span {
+			margin: 0 20px;
+		}
+	} // .showDetails
+
 } // @media (min-width: 600px)
+
+@media (max-width: 425px) {
+
+	.headerInfo {
+		width: 95%;
+	} // .headerInfo
+
+	.showDetails {
+
+		span {
+			margin: 0 5px;
+		}
+	} // .showDetails
+
+} // @media (min-width: 425px)
