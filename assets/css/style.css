@@ -213,13 +213,14 @@ header {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  color: #fff; }
+  color: #fff;
+  background: #000 url("../images/headerBackground.jpg") center center no-repeat;
+  background-size: cover; }
   header video {
     width: auto;
     height: auto;
     min-height: 125%;
     position: absolute;
-    z-index: -1;
     top: 50%;
     left: 40%;
     -webkit-transform: translate(-50%, -50%);
@@ -279,8 +280,20 @@ header {
 Media Queries */
 @media (min-width: 1450px) {
   header video {
-    max-width: none;
     min-width: 130%; } }
+
+@media only screen and (max-device-width: 1000px) {
+  header {
+    height: auto; }
+    header video {
+      display: none; }
+  .headerCover {
+    padding: 50px 0; }
+  .headerInfo {
+    position: static;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none; } }
 
 @media (max-width: 1000px) {
   header video {
