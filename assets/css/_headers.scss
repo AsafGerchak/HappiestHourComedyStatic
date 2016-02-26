@@ -126,27 +126,22 @@ Media Queries */
 
 } // @media (min-width: 1450px)
 
+// *** NOTE: MAYBE REMOVE SOME OF THESE STYLES WHEN THE SITE IS MORE FLESHED-OUT ***
 @media only screen and (max-device-width: 1000px) {
 
 	header {
 		height: auto;
+		min-height: 100vh;
 
 		video {
 			display: none;
 		}
 
-		// .bigScreen {
-		// 	display: none;
-		// }
-
-		// .smallScreen {
-		// 	display: block;
-		// }
-
 	} // header
 
 	.headerCover {
 		padding: 50px 0;
+		min-height: 100vh;
 	} // .headerCover
 
 	.headerInfo {
