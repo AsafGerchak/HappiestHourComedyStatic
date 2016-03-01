@@ -262,11 +262,13 @@ header {
     font-weight: 400; }
     .showDetails h2:first-of-type {
       margin-bottom: 5px; }
+    .showDetails h2:last-of-type {
+      font-size: 1em; }
   .showDetails span {
     margin: 0 30px;
     text-transform: lowercase; }
   .showDetails .sponsor {
-    margin-top: 20px; }
+    margin: 20px 0 40px 0; }
     .showDetails .sponsor p,
     .showDetails .sponsor img {
       display: inline-block;

@@ -87,6 +87,10 @@ header {
 		&:first-of-type {
 			margin-bottom: 5px;
 		}
+
+		&:last-of-type {
+			font-size: 1em;
+		}
 	} // h2
 
 	span {
@@ -95,7 +99,7 @@ header {
 	}
 
 	.sponsor {
-		margin-top: 20px;
+		margin: 20px 0 40px 0;
 
 		p,
 		img {
